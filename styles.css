@@ -21,6 +21,7 @@ body {
     background-image: url(/images/bg-pattern-top.svg);
     background-repeat: no-repeat;
     background-position: -170px -600px;
+    position: relative;
 }
 
 @media screen and (max-width:500px) {
@@ -132,12 +133,19 @@ body {
     padding-right: 10px;
 }
 
-
 footer {
     position: absolute;
-    bottom: 30px;
+    bottom: 2px;
     text-align: center;
-    margin-left: 570px;
+    font-size: 0.7rem;
+}
+
+.attribution {
+    color: darkblue;
+}
+
+.attribution a {
+    color: rgb(255, 152, 9);
 }
 
 footer a {
@@ -148,11 +156,4 @@ footer a {
 
 footer a:hover {
     color: whitesmoke;
-}
-
-@media screen and (max-width:500px) {
-    footer {
-        bottom: 120px;
-        margin-left: 55px;
-    }
 }
